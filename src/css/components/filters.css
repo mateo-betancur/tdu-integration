@@ -1,0 +1,93 @@
+.modal {
+  width: 75vw;
+}
+
+.input__container {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input__container input {
+  border-radius: 15px;
+  padding: 5px 10px;
+  border: 1px solid #888;
+  margin-top: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 90%;
+}
+
+.search__icon {
+  position: absolute;
+  top: 60%;
+  right: 10%;
+  transform: translateY(-50%);
+  color: #888;
+  cursor: pointer;
+}
+
+.btn-close {
+  margin-top: 10px;
+  font-size: 13px;
+  padding: 20px 30px 0px 0px;
+}
+
+.filters__valor {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.filters__valor > p {
+  color: #0E2B63;
+  font-size: 36px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 67.414px;
+  height: 17px;
+  flex-shrink: 0;
+}
+
+.filters__valor > button {
+  padding: 0;
+}
+
+.accordion-button {
+  color: #464646;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 10px 0px;
+}
+
+.accordion-button:not(.collapsed)::after,
+.accordion-button::after {
+  background-image: unset !important;
+}
+
+input[type=checkbox] {
+  accent-color: #0E2B63;
+}
+
+.btn__apply--filters {
+  display: flex;
+  color: #FFF;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 8px 14px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #0E2B63;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/*# sourceMappingURL=filters.css.map */
