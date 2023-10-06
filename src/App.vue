@@ -5,13 +5,15 @@ import CouponCard from "@/components/CouponCard.vue";
 import FixedMenu from "@/components/FixedMenu.vue";
 import MyTduCard from "./components/MyTduCard.vue";
 import CouponsFilter from "./components/CouponsFilter.vue";
+import Filters from "./components/Filters.vue";
 </script>
 
 <template>
-	<!-- <CouponSearch />
-	<CouponsCategories />
-	<CouponCard />
-	<FixedMenu /> -->
+	<!-- <CouponSearch /> -->
+	<!-- <CouponsCategories /> -->
+	<!-- <CouponCard /> -->
+	<!-- <FixedMenu /> -->
 	<!-- <MyTduCard /> -->
-	<CouponsFilter />
+	<!-- <CouponsFilter /> -->
+	<Filters />
 </template>
