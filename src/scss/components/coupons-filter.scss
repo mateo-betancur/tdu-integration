@@ -1,0 +1,72 @@
+.coupons__filter h2 {
+  color: #0E2B63;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.coupons__card--location {
+  border-radius: 8000px;
+  border: 1px solid #E4E4E4;
+  background: #FFF;
+}
+
+.coupons__filter--button {
+  color: #5F8B9A;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.coupons__filter--select {
+  display: inline-flex;
+  width: 100%;
+  gap: 15px;
+}
+
+.coupons__filter--select select {
+  flex: 1;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: #7D7D7D;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #fff;
+  padding-right: 10px;
+}
+
+.button__search--direction {
+  display: flex;
+  width: 100%;
+  padding: 8px 16px;
+  align-items: center;
+  gap: 20px;
+  color: #000000;
+  border-radius: 12px;
+  background: #ECEFF4;
+  margin-bottom: 30px;
+}
+
+.button__search--coupons {
+  display: flex;
+  gap: 5px;
+  color: #FFF;
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  width: 100%;
+  padding: 8px 14px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #0E2B63;
+}
