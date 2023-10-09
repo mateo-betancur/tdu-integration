@@ -13,7 +13,9 @@
 				<p>10% T.C.</p>
 			</div>
 			<div class="d-flex align-items-center coupon__personal--info mb-5">
-				<div class="d-flex px-5 py-4 justify-content-between">
+				<div
+					class="d-flex px-5 py-4 justify-content-between coupon__background--img"
+				>
 					<div class="coupon__personal--info">
 						<p>Pepito Pérez Marriaga</p>
 						<h3>Obtén tu beneficio TDU</h3>
