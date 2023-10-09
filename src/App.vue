@@ -7,6 +7,7 @@ import MyTduCard from "@/components/MyTduCard.vue";
 import CouponsFilter from "@/components/CouponsFilter.vue";
 import Filters from "@/components/Filters.vue";
 import MyTduCoupons from "@/components/MyTduCoupons.vue";
+import CouponDetails from "@/components/CouponDetails.vue";
 </script>
 
 <template>
@@ -17,5 +18,6 @@ import MyTduCoupons from "@/components/MyTduCoupons.vue";
 	<!-- <MyTduCard /> -->
 	<!-- <CouponsFilter /> -->
 	<!-- <Filters /> -->
-	<MyTduCoupons />
+	<!-- <MyTduCoupons /> -->
+	<CouponDetails />
 </template>
