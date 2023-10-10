@@ -15,9 +15,9 @@ import CouponDetails from "@/components/CouponDetails.vue";
 	<!-- <CouponsCategories /> -->
 	<!-- <CouponCard /> -->
 	<!-- <FixedMenu /> -->
-	<!-- <MyTduCard /> -->
+	<MyTduCard />
 	<!-- <CouponsFilter /> -->
 	<!-- <Filters /> -->
 	<!-- <MyTduCoupons /> -->
-	<CouponDetails />
+	<!-- <CouponDetails /> -->
 </template>

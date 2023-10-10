@@ -1,27 +1,186 @@
 .tdu__card--h2 {
-  color: var(--primary-blue-100, #0E2B63);
-  font-feature-settings: 'clig' off, 'liga' off;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 32px;
+	color: var(--primary-blue-100, #0e2b63);
+	font-feature-settings: "clig" off, "liga" off;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 32px;
 }
 
 .tdu__card--p {
-  color: #464646;
-  font-feature-settings: 'clig' off, 'liga' off;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-
+	color: #464646;
+	font-feature-settings: "clig" off, "liga" off;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
 }
 
 .tdu__card--button p {
-  color: #5F8B9A;
-  font-feature-settings: 'clig' off, 'liga' off;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 22px;
+	color: #5f8b9a;
+	font-feature-settings: "clig" off, "liga" off;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 22px;
+}
+
+.top__card {
+	background-color: #00b1eb;
+	width: 311px;
+	height: 90px;
+	flex-shrink: 0;
+	border-radius: 18px 18px 0px 0px;
+	background: #1fb9ec;
+}
+
+.top__card--h3 {
+	color: #fff;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 24px; /* 150% */
+	letter-spacing: 4.5px;
+}
+
+.bottom__card {
+	background-color: #0e2b63;
+	width: 311px;
+	height: 110px;
+	flex-shrink: 0;
+	border-radius: 0px 0px 18px 18px;
+	background-image: url("/public/images/my-tdu-card-front.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bottom__card > p {
+	color: #fff;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: 0.48px;
+}
+
+.bottom__card--date {
+	color: #fff;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.48px;
+}
+
+.bottom__card--date span {
+	color: #fff;
+	text-align: right;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.48px;
+}
+
+.bottom__card--cvv {
+	color: #fff;
+	text-align: right;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.48px;
+}
+
+.bottom__card--cvv span {
+	color: #fff;
+	text-align: right;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.48px;
+}
+
+// card reverse
+.card__reverse--top {
+	background-color: #0e2b63;
+	border-radius: 18px 18px 0px 0px;
+	background-image: url("/public/images/my-tdu-card-front.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 311px;
+	height: 185px;
+}
+.card__reverse--header h2 {
+	color: #fff;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 2px;
+}
+
+.card__reverse--header p {
+	padding: 4px 0px;
+	align-items: center;
+	border-radius: 1000px;
+	background: #dae9f1;
+	color: #0e2b63;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 700;
+	text-align: center;
+	width: 110px;
+}
+
+.card__middle--p {
+	color: #fff;
+	font-size: 8px;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: 0.32px;
+}
+
+.card__reverse--codes p {
+	padding: 2px 8px;
+	border-radius: 12px;
+	background: #eceff4;
+	color: #282828;
+	font-size: 8px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.card__reverse--promotion {
+	color: #fff;
+	font-size: 8px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 12px;
+}
+
+.card__reverse--footer {
+	color: #fff;
+	text-align: center;
+	font-size: 5px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 8px;
+}
+
+.card__reverse--bottom {
+	background-color: #dae9f1;
+	border-radius: 0px 0px 18px 18px;
+	padding: 10px;
+	width: 311px;
+	height: 35px;
+}
+
+.card__reverse--bottom img:nth-child(2) {
+	width: 40px;
+}
+
+.card__reverse--bottom img:nth-child(1) {
+	width: 40px;
 }
