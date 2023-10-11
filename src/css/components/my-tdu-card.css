@@ -44,7 +44,7 @@
 }
 
 .bottom__card {
-  background-color: #0e2b63;
+  background-color: #0a5398;
   width: 311px;
   height: 110px;
   flex-shrink: 0;
@@ -52,6 +52,7 @@
   background-image: url("/public/images/my-tdu-card-front.png");
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 1;
 }
 
 .bottom__card > p {
@@ -102,13 +103,14 @@
 }
 
 .card__reverse--top {
-  background-color: #0e2b63;
+  background-color: #0a5398;
   border-radius: 18px 18px 0px 0px;
   background-image: url("/public/images/my-tdu-card-front.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 311px;
   height: 185px;
+  opacity: 1;
 }
 
 .card__reverse--header h2 {
